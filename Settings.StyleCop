@@ -1,0 +1,25 @@
+<StyleCopSettings Version="105">
+  <GlobalSettings>
+    <CollectionProperty Name="RecognizedWords">
+      <Value>eid</Value>
+      <Value>enum</Value>
+      <Value>fn</Value>
+      <Value>infos</Value>
+      <Value>init</Value>
+      <Value>json</Value>
+      <Value>obj</Value>
+      <Value>recordset</Value>
+      <Value>soe</Value>
+    </CollectionProperty>
+  </GlobalSettings>
+  <Analyzers>
+    <Analyzer AnalyzerId="StyleCop.CSharp.NamingRules">
+      <AnalyzerSettings>
+        <CollectionProperty Name="Hungarian">
+          <Value>m</Value>
+          <Value>pt</Value>
+        </CollectionProperty>
+      </AnalyzerSettings>
+    </Analyzer>
+  </Analyzers>
+</StyleCopSettings>
