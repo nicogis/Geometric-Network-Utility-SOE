@@ -1,7 +1,7 @@
 ﻿# Geometric Network Utility SOE Rest
 
 
-This solution (developed in c#) creates a SOE Rest in arcgis server 10.4 or superior for these operations:
+This solution (developed in c#) creates a SOE Rest in arcgis server 10.4.1 or superior for these operations:
 
 - TraceNetwork 
 - ValveIsolation
