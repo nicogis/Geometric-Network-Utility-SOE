@@ -1469,7 +1469,7 @@ namespace Studioat.ArcGis.Soe.Rest
                                 int valueWeight;
                                 if (int.TryParse(n, out valueWeight))
                                 {
-                                    if ((weightType == esriWeightType.esriWTBitGate) && (Convert.ToString(valueWeight, 2).Length != netJunctionFilterWeight.BitGateSize))
+                                    if ((weightType == esriWeightType.esriWTBitGate) && (Convert.ToString(valueWeight, 2).Length > netJunctionFilterWeight.BitGateSize))
                                     {
                                         throw new ArgumentException(string.Format(CultureInfo.InvariantCulture, "{0} not valid (BitGateSize)", junctionFilterRanges), methodName);
                                     }
@@ -1637,7 +1637,7 @@ namespace Studioat.ArcGis.Soe.Rest
                                     {
                                         if (range.Length == 1)
                                         {
-                                            if ((weightType == esriWeightType.esriWTBitGate) && (Convert.ToString(valueWeight, 2).Length != netFromToEdgeFilterWeight.BitGateSize) && (Convert.ToString(valueWeight, 2).Length != netToFromEdgeFilterWeight.BitGateSize))
+                                            if ((weightType == esriWeightType.esriWTBitGate) && (Convert.ToString(valueWeight, 2).Length > netFromToEdgeFilterWeight.BitGateSize) && (Convert.ToString(valueWeight, 2).Length > netToFromEdgeFilterWeight.BitGateSize))
                                             {
                                                 throw new ArgumentException(string.Format(CultureInfo.InvariantCulture, "{0} not valid (BitGateSize)", edgeFilterRanges), methodName);
                                             }
@@ -1657,7 +1657,7 @@ namespace Studioat.ArcGis.Soe.Rest
                                                 edgeFilterRangesTo.Add(valueWeight);
                                                 int fromEdge = (int)edgeFilterRangesFrom[edgeFilterRangesFrom.Count - 1];
                                                 int toEdge = (int)edgeFilterRangesTo[edgeFilterRangesTo.Count - 1];
-                                                if ((weightType == esriWeightType.esriWTBitGate) && (Convert.ToString(fromEdge, 2).Length != netFromToEdgeFilterWeight.BitGateSize) && (Convert.ToString(toEdge, 2).Length != netToFromEdgeFilterWeight.BitGateSize))
+                                                if ((weightType == esriWeightType.esriWTBitGate) && (Convert.ToString(fromEdge, 2).Length > netFromToEdgeFilterWeight.BitGateSize) && (Convert.ToString(toEdge, 2).Length > netToFromEdgeFilterWeight.BitGateSize))
                                                 {
                                                     throw new ArgumentException(string.Format(CultureInfo.InvariantCulture, "{0} not valid (BitGateSize)", edgeFilterRanges), methodName);
                                                 }

@@ -17,7 +17,7 @@ using ESRI.ArcGIS.SOESupport;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Studio A&T s.r.l.")]
 [assembly: AssemblyProduct("GeometricNetworkUtility")]
-[assembly: AssemblyCopyright("Copyright © Studio A&T s.r.l. 2012")]
+[assembly: AssemblyCopyright("Copyright © Studio A&T s.r.l. 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -39,16 +39,16 @@ using ESRI.ArcGIS.SOESupport;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.3.0.0")]
+[assembly: AssemblyFileVersion("1.3.0.0")]
 
 [assembly: AddInPackage("Studioat.ArcGis.Soe.Rest.GeometricNetworkUtility", "f15446f6-4217-4c50-a970-078c0b64a20a",
     Author = "nicogis",
     Company = "Studio A&T s.r.l.",
     Description = "Geometric Network Utility",
     TargetProduct = "Server",
-    TargetVersion = "10.4",
-    Version = "1.2")]
+    TargetVersion = "10.5",
+    Version = "1.3")]
 
 [module: SuppressMessage("Microsoft.Design", "CA1014:MarkAssembliesWithClsCompliant", Justification = "-")]
 [module: SuppressMessage("Microsoft.Design", "CA1020:AvoidNamespacesWithFewTypes", Justification = "-", Scope = "namespace", Target = "Studioat.ArcGis.Soe.Rest")]
