@@ -9,7 +9,7 @@ This solution (developed in c#) creates a SOE Rest in arcgis server 10.5.1 or su
 
 Installation:
 
-a) upload file Studioat.ArcGis.Soe.Rest.GeometricNetworkUtility.soe (see [help](http://resources.arcgis.com/en/help/arcobjects-net/conceptualhelp/0001/000100000nvz000000.htm))
+a) upload file Studioat.ArcGis.Soe.Rest.GeometricNetworkUtility.soe (see [help](https://resources.arcgis.com/en/help/arcobjects-net/conceptualhelp/0001/000100000nvz000000.htm))
 
 b) create a service map and enable in capabilities the extension. In your mxd you must have at least a geometric Network
 
