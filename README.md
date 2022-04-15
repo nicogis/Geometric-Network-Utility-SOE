@@ -14,16 +14,16 @@ a) upload file Studioat.ArcGis.Soe.Rest.GeometricNetworkUtility.soe (see [help](
 b) create a service map and enable in capabilities the extension. In your mxd you must have at least a geometric Network
 
 c) from service directory you can see all your Geometric Network<br>
-   <sub>http://hostname/arcgis/rest/services/yourservice/MapServer/exts/GeometricNetworkUtility </sub>
+   <sub>https://hostname/arcgis/rest/services/yourservice/MapServer/exts/GeometricNetworkUtility </sub>
 
 d) TraceNetwork, IsolateValve and TraceNetworkPosAlong operation for Geometry Network
    (example with id=1. To know id use request c)
    <br>
-<sub>http://hostname/arcgis/rest/services/myservice/MapServer/exts/GeometricNetworkUtility/GeometricNetworks/1/TraceNetwork
-http://hostname/arcgis/rest/services/myservice/MapServer/exts/GeometricNetworkUtility/GeometricNetworks/1/IsolateValve </sub>
+<sub>https://hostname/arcgis/rest/services/myservice/MapServer/exts/GeometricNetworkUtility/GeometricNetworks/1/TraceNetwork
+https://hostname/arcgis/rest/services/myservice/MapServer/exts/GeometricNetworkUtility/GeometricNetworks/1/IsolateValve </sub>
 <br>
    To see weights:<br>
-<sub>http://hostname/arcgis/rest/services/myservice/MapServer/exts/GeometricNetworkUtility/GeometricNetworks/1 </sub>
+<sub>https://hostname/arcgis/rest/services/myservice/MapServer/exts/GeometricNetworkUtility/GeometricNetworks/1 </sub>
 
 
 ###### Help
