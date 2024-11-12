@@ -28,7 +28,7 @@ https://hostname/arcgis/rest/services/myservice/MapServer/exts/GeometricNetworkU
 
 ###### Help
 
-[Live](https://sit2.sistemigis.it/sit/rest/services/Demo/GeometricNetwork/MapServer/exts/GeometricNetworkUtility/Help)
+[Live](https://sit.sistemigis.it/sit/rest/services/Demo/GeometricNetwork/MapServer/exts/GeometricNetworkUtility/Help)
 
 ###### Video
 
@@ -36,24 +36,24 @@ https://hostname/arcgis/rest/services/myservice/MapServer/exts/GeometricNetworkU
 
 ###### Geometric Network
 
-[Live demo](https://sit2.sistemigis.it/js/GeometricNetwork)
+[Live demo](https://sit.sistemigis.it/js/GeometricNetwork)
 
 
 ###### Valve isolation
 
-[Live demo](https://sit2.sistemigis.it/js/valveisolation/)
+[Live demo](https://sit.sistemigis.it/js/valveisolation/)
 
 
 ###### FindLongest
  
-[Live demo](https://sit2.sistemigis.it/js/GeometricNetworkStream)
+[Live demo](https://sit.sistemigis.it/js/GeometricNetworkStream)
 
 
 ###### Pos Along
 
 The geometric network must be simple edge with flow direction in same digitized direction of edges
 
-[Live demo](https://sit2.sistemigis.it/js/GeometricNetworkStreamPosAlong)
+[Live demo](https://sit.sistemigis.it/js/GeometricNetworkStreamPosAlong)
 
 
 ###### Samples
